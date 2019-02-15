@@ -1,0 +1,20 @@
+{
+    "name": "neopixel-knockbit",
+    "version": "0.0.6",
+    "description": "hacked up neopixel driver to allow bluetooth,consequences be damned,used i the knockbit.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "knockbit": "github:makerdart/knockbit#v1.0.2",
+        "neopixel": "github:KittenBot/pxt-neopixel#v0.6.12",
+        "bluetooth": "*"
+    },
+    "files": [
+        "README.md",
+        "knockbit_neo.ts"
+    ],
+    "testFiles": [
+        "knockbit_neo_test.ts"
+    ],
+    "public": false
+}
