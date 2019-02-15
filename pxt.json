@@ -1,6 +1,6 @@
 {
     "name": "neopixel-knockbit",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "hacked up neopixel driver to allow bluetooth,consequences be damned,used i the knockbit.",
     "license": "MIT",
     "dependencies": {
