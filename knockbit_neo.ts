@@ -9,7 +9,6 @@ namespace knockbit {
         sendSuperMessage("lnp" + pixelCount);  // 设置lnp（neopixels数量）
     }
 
-    // neopixel-start
     let splitString = (splitOnChar: string, input: string) => {
         let result: string[] = []
         let count: number = 0
@@ -48,7 +47,6 @@ namespace knockbit {
         }
         strip.show();
     }
-    // neopixel-end
 
     //% blockId=knock_neopixel_clearLed
     //% block="关闭LED" | Strip %strip"
