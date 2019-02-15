@@ -50,6 +50,8 @@ namespace knockbit {
     }
     // neopixel-end
 
+    //% blockId=knock_neopixel_clearLed
+    //% block="关闭LED" | Strip %strip"
     export function clearLed(strip: neopixel.Strip) {
         if (strip != null) {    // 断开蓝牙时关闭led灯
             for (let i = 0; i < pixelCount; i++)
